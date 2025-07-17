@@ -12,19 +12,21 @@
 	<h1>Dog Adoption Application</h1>
 	<form action="#" method="post">
 		<label for="name">Name:</label><br>
-		<input type="text" id="name" name="name" required><br><br>
-		<label for="phone">Phone Number</label><br>
-		<input type="text" id="phone" name="phone number" required><br><br>
-		<label for="address">Address</label><br>
-		<input type="text" id="address" name="address" required><br><br>
-		<input type="chechbox" id="checkbox" name="have you ever lived with a dog" required><br><br>
+		<input type="text" id="name" name="name" placeholder="Name"required><br><br>
+		<label for="phone">Phone Number:</label><br>
+		<input type="text" id="phone" name="phone number" placeholder="Phone Number" required><br><br>
+		<label for="address">Address:</label><br>
+		<input type="text" id="address" name="address" placeholder="Address" required><br><br>
 		<label for="have you ever lived with a Dog before?">Have you ever lived with a Dog before?</label><br>
-		<select id="multiselect" name="please select preferred dogs" required><br>
+		<input type="chechbox" id="checkbox" name="dogExperience" required><br><br>
+
+	   <select id="multiselect" name="preferred dogs" multiple required><br>
 			<option value="pug">Pug</option>
 			<option value="poodle">Poodle</option>
 			<option value="beagle">Beagle</option>
-		</select>
+		</select><br><br>
 		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
